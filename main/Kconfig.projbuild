@@ -1,0 +1,56 @@
+menu "MQTT Door Opener Configuration"
+    menu "WiFi Configuration"
+        config WIFI_SSID
+            string "WiFi SSID"
+            default "myssid"
+            help
+                SSID (network name) for the door opener to connect to.
+
+        config WIFI_PASSWORD
+            string "WiFi Password"
+            default "mypassword"
+            help
+                WiFi password (WPA or WPA2)
+
+        config WIFI_MAXIMUM_RETRY
+            int "Maximum retry"
+            default 0
+            help
+                Set the Maximum retry to avoid station reconnecting to the AP unlimited when the AP is really inexistent.
+                Set 0 for unlimited.
+    endmenu
+
+    menu "MQTT Configuration"
+        config MQTT_URI
+            string "Broker URI"
+            default "mqtts://[user[:password]@]host[:port]"
+            help
+                URI of the broker to connect to.
+
+        config MQTT_TOPIC
+            string "Topic"
+            default "door-opener"
+            help
+                Topic to subscribe to.
+
+        config MQTT_OPEN_COMMAND
+            string "Open Door Command"
+            default "open"
+            help
+                The message at the reception of which the ESP will open the door.
+    endmenu
+
+    config HOSTNAME
+        string "WiFi Hostname / MQTT Client ID"
+        default "esp32-door-opener"
+        help
+            The WiFi hostname.
+            Will also be used as client id that will be sent to the MQTT broker.
+    
+    config GPIO_DOOR_OPENER
+        int "Door Opener GPIO"
+        range 0 35
+        default 22
+        help
+            The GPIO pin the relais responsible for opening the door is connected to.
+endmenu
