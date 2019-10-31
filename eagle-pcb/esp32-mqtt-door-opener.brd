@@ -2134,7 +2134,7 @@ design rules under a new name.</description>
 <wire x1="11.328" y1="13.97" x2="11.328" y2="16.358" width="0.254" layer="1"/>
 <wire x1="11.176" y1="16.51" x2="11.328" y2="16.358" width="0.1524" layer="1"/>
 <wire x1="11.328" y1="16.51" x2="11.176" y2="16.51" width="0.508" layer="1"/>
-<wire x1="43.18" y1="5.08" x2="44.45" y2="3.81" width="0.254" layer="1"/>
+<wire x1="44.45" y1="3.81" x2="43.18" y2="5.08" width="0.254" layer="1"/>
 <wire x1="44.45" y1="3.81" x2="44.45" y2="2.54" width="0.254" layer="1"/>
 <wire x1="44.45" y1="2.54" x2="43.18" y2="1.27" width="0.254" layer="1"/>
 <contactref element="U1" pad="2"/>
@@ -2155,8 +2155,8 @@ design rules under a new name.</description>
 <wire x1="35.54" y1="2.56" x2="35.56" y2="2.58" width="0.254" layer="1"/>
 <wire x1="36.83" y1="1.27" x2="35.54" y2="2.56" width="0.254" layer="1"/>
 <wire x1="43.18" y1="1.27" x2="36.83" y2="1.27" width="0.254" layer="1"/>
-<wire x1="43.18" y1="5.08" x2="47.35" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="41.55" y1="5.08" x2="43.18" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="5.08" x2="41.55" y2="5.08" width="0.254" layer="1"/>
+<wire x1="41.55" y1="5.08" x2="47.35" y2="5.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="~2">
 <contactref element="X1" pad="2"/>

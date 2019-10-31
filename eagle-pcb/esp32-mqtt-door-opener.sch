@@ -15350,15 +15350,15 @@ Source: http://sharp-world.com/products/device/lineup/data/pdf/datasheet/s102s02
 </sheet>
 </sheets>
 <errors>
-<approved hash="204,1,173.99,113.03,U1,GND,,,,"/>
-<approved hash="204,1,138.43,74.93,U1,GND,,,,"/>
-<approved hash="204,1,173.99,97.79,U1,GND,,,,"/>
-<approved hash="113,1,181.61,138.135,BOOT,,,,,"/>
-<approved hash="113,1,128.27,138.135,RESET,,,,,"/>
-<approved hash="113,1,189.467,104.366,JP1,,,,,"/>
-<approved hash="113,1,30.926,120.65,X1,,,,,"/>
-<approved hash="113,1,223.074,123.19,X2,,,,,"/>
-<approved hash="113,1,223.074,110.49,X3,,,,,"/>
+<approved hash="204,1,187.96,114.3,U1,GND,,,,"/>
+<approved hash="204,1,152.4,76.2,U1,GND,,,,"/>
+<approved hash="204,1,187.96,99.06,U1,GND,,,,"/>
+<approved hash="113,1,195.58,139.405,BOOT,,,,,"/>
+<approved hash="113,1,142.24,139.405,RESET,,,,,"/>
+<approved hash="113,1,203.437,105.606,JP1,,,,,"/>
+<approved hash="113,1,44.896,121.92,X1,,,,,"/>
+<approved hash="113,1,237.044,129.54,X2,,,,,"/>
+<approved hash="113,1,237.044,116.84,X3,,,,,"/>
 </errors>
 </schematic>
 </drawing>
