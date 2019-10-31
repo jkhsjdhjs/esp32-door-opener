@@ -1,0 +1,10 @@
+# build and config
+build
+sdkconfig*
+
+# eagle project file
+eagle.epf
+
+# eagle board/schematic backup files
+*.s#?
+*.b#?

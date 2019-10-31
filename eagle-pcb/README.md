@@ -1,0 +1,11 @@
+## Used Libraries
+- [Macro Yau's ESP32 Library](https://github.com/MacroYau/MacroYau-EAGLE-Libraries/blob/master/esp32.lbr)
+- [LM1117 Library by Samuel Lourenço](https://www.diymodules.org/eagle-show-library?type=usr&id=1012211244)
+- [TL2230 Pushbutton](https://github.com/jkhsjdhjs/eagle-libraries/blob/master/TL2230.lbr)
+- [Sharp S202S02 SSR with long pads](https://github.com/jkhsjdhjs/eagle-libraries/blob/master/S202S02.lbr)
+- con-wago-500
+- pinhead
+- rcl
+- rectifier
+- switch-omron
+- SparkFun-Aesthetics

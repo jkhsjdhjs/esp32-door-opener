@@ -42,11 +42,11 @@ menu "MQTT Door Opener Configuration"
 
     config HOSTNAME
         string "WiFi Hostname / MQTT Client ID"
-        default "esp32-door-opener"
+        default "esp32-mqtt-door-opener"
         help
             The WiFi hostname.
             Will also be used as client id that will be sent to the MQTT broker.
-    
+
     config GPIO_DOOR_OPENER
         int "Door Opener GPIO"
         range 0 35
