@@ -15355,7 +15355,7 @@ Source: http://sharp-world.com/products/device/lineup/data/pdf/datasheet/s102s02
 <approved hash="204,1,187.96,99.06,U1,GND,,,,"/>
 <approved hash="113,1,195.58,139.405,BOOT,,,,,"/>
 <approved hash="113,1,142.24,139.405,RESET,,,,,"/>
-<approved hash="113,1,203.437,105.636,JP1,,,,,"/>
+<approved hash="113,1,203.437,105.606,JP1,,,,,"/>
 <approved hash="113,1,44.896,121.92,X1,,,,,"/>
 <approved hash="113,1,237.044,129.54,X2,,,,,"/>
 <approved hash="113,1,237.044,116.84,X3,,,,,"/>
