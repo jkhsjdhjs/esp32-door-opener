@@ -15049,8 +15049,8 @@ Source: http://sharp-world.com/products/device/lineup/data/pdf/datasheet/s102s02
 </library>
 </libraries>
 <attributes>
-<attribute name="CNAME" value="esp32-mqtt-door-opener"/>
-<attribute name="CREVISION" value="3.0"/>
+<attribute name="CNAME" value=""/>
+<attribute name="CREVISION" value="3.1"/>
 <attribute name="DESIGNER" value="jkhsjdhjs"/>
 </attributes>
 <variantdefs>
@@ -15072,11 +15072,7 @@ Source: http://sharp-world.com/products/device/lineup/data/pdf/datasheet/s102s02
 <part name="B1" library="rectifier" library_urn="urn:adsk.eagle:library:336" deviceset="DB?*G" device="S10" package3d_urn="urn:adsk.eagle:package:23898/1" technology="7"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SMCC" package3d_urn="urn:adsk.eagle:package:25921/2" value="22u"/>
 <part name="U1" library="esp32" deviceset="ESP-WROOM-32" device=""/>
-<part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device="">
-<attribute name="CNAME" value=""/>
-<attribute name="CREVISION" value="3.0"/>
-<attribute name="DESIGNER" value="jkhsjdhjs"/>
-</part>
+<part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
 <part name="S1" library="TL2230" deviceset="TL2230" device=""/>
 <part name="K1" library="S202S02" deviceset="S*02S02" device="" package3d_urn="urn:adsk.eagle:package:24541/1" technology="2"/>
 <part name="X2" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
