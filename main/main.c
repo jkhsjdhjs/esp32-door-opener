@@ -80,8 +80,8 @@ void app_main() {
     }
     ESP_ERROR_CHECK(ret);
 
-    ESP_ERROR_CHECK(gpio_set_direction(GPIO_NUM_22, GPIO_MODE_OUTPUT));
-    ESP_ERROR_CHECK(gpio_set_level(GPIO_NUM_22, 0));
+    ESP_ERROR_CHECK(gpio_set_direction(GPIO_DOOR_OPENER, GPIO_MODE_OUTPUT));
+    ESP_ERROR_CHECK(gpio_set_level(GPIO_DOOR_OPENER, 0));
 
     ESP_ERROR_CHECK(esp_event_loop_create_default());
 
