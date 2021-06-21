@@ -1,0 +1,10 @@
+# project file
+eagle.epf
+
+# board/schematic backup files
+*.s#?
+*.b#?
+
+# autorouter job/statistics files
+*.job
+*.pro
